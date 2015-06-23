@@ -12,7 +12,6 @@ module Lita
 
       def tuc(response)
         query = response.matches[0][0]
-         query
 
         http_response = http.get(
           URL + query
