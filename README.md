@@ -2,9 +2,6 @@
 
 Get balance from MPeso Tuc with Slack.
 
-> Hoy le toca a {nombre}
-
-
 ## Installation
 Add lita-tuc to your Gemfile:
 
