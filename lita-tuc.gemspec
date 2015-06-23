@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = 'lita-tuc'
-  spec.version       = '0.0.1'
+  spec.version       = '0.0.2'
   spec.authors       = 'Paulo McNally'
   spec.email         = ['paulomcnally@gmail.com']
   spec.description   = %q{Lita handler tuc balance}

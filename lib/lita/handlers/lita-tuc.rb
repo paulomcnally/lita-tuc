@@ -6,9 +6,9 @@ module Lita
     class Tuc < Handler
       URL = "http://tuc.apinic.org/v1/";
 
-      route(/tuc\s(\d{8})/i, :tuc, command: true, help: {
-        'tuc' => 'Get balance from MPeso TUC Cards'
-      })
+      route %r{^tuc (\d{8})$}i, :tuc, command: true, help: {
+        'tuc 00000000' => 'Return balance from MPeso TUC Cards'
+      }
 
       def tuc(response)
         query = response.matches[0][0]
