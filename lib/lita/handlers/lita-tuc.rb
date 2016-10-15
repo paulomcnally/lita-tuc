@@ -4,7 +4,7 @@ require 'json'
 module Lita
   module Handlers
     class Tuc < Handler
-      URL = "http://tuc.apinic.org/v1/";
+      URL = "https://tuc.herokuapp.com/v2/";
 
       route %r{^tuc (\d{8})$}i, :tuc, command: true, help: {
         'tuc 00000000' => 'Return balance from MPeso TUC Cards'
